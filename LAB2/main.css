@@ -1,0 +1,14 @@
+/* External style sheet main.css */
+.title h1{font-family: 'Quicksand', sans-serif; font-size: 40px; color:burlywood; background-color:coral; text-align: center;}
+a.button1{font-family: 'Black Han Sans', sans-serif; font-size: 20px; color:black; width: 15%; text-align: center; margin-left: .5em; margin-right: .5em; padding: .5em;
+                border-style: solid; border-color:darksalmon}
+a.button2{font-family: 'Black Han Sans', sans-serif; font-size: 20px; color:black; width: 15%; text-align: center; margin-left: .5em; margin-right: .5em; padding: .5em;
+                border-style: solid; border-color:darksalmon}  
+a.button3{font-family: 'Poor Story', cursive; font-size: 20px; color:black; width: 15%; text-align: center; margin-left: .5em; margin-right: .5em; padding: .5em;
+                border-style: solid; border-color:darksalmon} 
+a.button4{font-family: 'Poor Story', cursive; font-size: 20px; color:black; width: 15%; text-align: center; margin-left: .5em; margin-right: .5em; padding: .5em;
+                border-style: solid; border-color:darksalmon}        
+.body1{font-family: 'Poor Story', cursive; font-size: 20px; color:black; margin-left: .5em; margin-right: .5em; padding: .5em;
+border-style: solid; border-color:darkorange; height: 570px;}
+.body2{font-family: 'Poor Story', cursive; font-size: 20px; color:black; margin-left: .5em; margin-right: .5em; padding: .5em;
+    border-style: solid; border-color:darkorange; height: 300px;}
