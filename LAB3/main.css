@@ -18,7 +18,7 @@ border-style: solid; border-color:darkorange; height: 570px;}
     border-style: solid; border-color:darksalmon}
 .items{width: 300px; height: 157.5px; border-style: solid; border-color: black;}
 .items img{position: relative; top: 36.75px; left: 70px; transition: transform 2s;}
-.items img:hover{transform: scale(1.75, 1.75);}
+.items img:hover{transform: scale(1.875, 1.875);}
 .description{column-count: 2; column-gap: 30px; column-rule-style: solid; column-rule-width: 1px; column-width: 200px;}
 .Descriptiontitle h1{font-family: 'Quicksand', sans-serif; font-size: 35px;}
 .description{font-family: 'Poor Story', cursive; font-size: 15px;}
