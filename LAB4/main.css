@@ -16,7 +16,7 @@ border-style: solid; border-color:darkorange; height: 570px;}
 @keyframes movingtitle {0%{opacity: 1; left: 50%; margin-left: 600px; top: 0px;} 100%{opacity: 1; left: 50%; margin-left: -510px; top: 0px;}}
 .mainpage{width: 1020px; position:absolute; left: 50%; margin-left: -510px; padding: .5em;
     border-style: solid; border-color:darksalmon}
-.items img{width : 160px; height : 84px;}
+.items img{position: relative; top: 36.75px; left: 70px; width : 160px; height : 84px;}
 .description{column-count: 2; column-gap: 30px; column-rule-style: solid; column-rule-width: 1px; column-width: 200px;}
 .Descriptiontitle h1{font-family: 'Quicksand', sans-serif; font-size: 25px;}
 .description{font-family: 'Poor Story', cursive; font-size: 15px;}
