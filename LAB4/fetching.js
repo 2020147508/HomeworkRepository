@@ -50,7 +50,7 @@ fetch('product.json')
             }
         }
     }
-
+    
     function selectProducts(){
         if (searchTerm.value.trim() === ''){
             finalGroup = categoryGroup;
