@@ -98,7 +98,7 @@
             }
 
             function whenclicked(){
-                wantedid = this.getAttribute("id");
+                wantedid = this.id;
                 fetch ("./product.json")
                 .then((response) => response.json())
                 .then(description => {
