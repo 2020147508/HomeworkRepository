@@ -1,0 +1,24 @@
+/* External style sheet main.css */
+.title h1{font-family: 'Quicksand', sans-serif; font-size: 40px; color:burlywood; background-color:coral; text-align: center;}
+a.button1{font-family: 'Black Han Sans', sans-serif; font-size: 20px; color:black; width: 15%; text-align: center; margin-left: .5em; margin-right: .5em; padding: .5em;
+                border-style: solid; border-color:darksalmon}
+a.button2{font-family: 'Black Han Sans', sans-serif; font-size: 20px; color:black; width: 15%; text-align: center; margin-left: .5em; margin-right: .5em; padding: .5em;
+                border-style: solid; border-color:darksalmon}  
+a.button3{font-family: 'Poor Story', cursive; font-size: 20px; color:black; width: 15%; text-align: center; margin-left: .5em; margin-right: .5em; padding: .5em;
+                border-style: solid; border-color:darksalmon} 
+a.button4{font-family: 'Poor Story', cursive; font-size: 20px; color:black; width: 15%; text-align: center; margin-left: .5em; margin-right: .5em; padding: .5em;
+                border-style: solid; border-color:darksalmon}        
+.body1{font-family: 'Poor Story', cursive; font-size: 20px; color:black; margin-left: .5em; margin-right: .5em; padding: .5em;
+border-style: solid; border-color:darkorange; height: 570px;}
+.body2{font-family: 'Poor Story', cursive; font-size: 20px; color:black; margin-left: .5em; margin-right: .5em; padding: .5em;
+    border-style: solid; border-color:darkorange; height: 300px;}
+.mainpagetitle h1{font-family: 'Quicksand', sans-serif; font-size: 30px; position: relative; animation: movingtitle linear 2s 0s 1}
+@keyframes movingtitle {0%{opacity: 1; left: 50%; margin-left: 600px; top: 0px;} 100%{opacity: 1; left: 50%; margin-left: -510px; top: 0px;}}
+.mainpage{width: 1020px; position:absolute; left: 50%; margin-left: -510px; padding: .5em;
+    border-style: solid; border-color:darksalmon}
+.items{width: 300px; height: 157.5px; border-style: solid; border-color: black;}
+.items img{position: relative; top: 36.75px; left: 70px; width : 160px; height : 84px; transition: transform 2s;}
+.items img:hover{transform: scale(1.875, 1.875);}
+.description{column-count: 2; column-gap: 30px; column-rule-style: solid; column-rule-width: 1px; column-width: 200px;}
+.Descriptiontitle h1{font-family: 'Quicksand', sans-serif; font-size: 25px;}
+.description{font-family: 'Poor Story', cursive; font-size: 15px;}

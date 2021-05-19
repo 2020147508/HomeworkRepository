@@ -1,0 +1,44 @@
+[
+    {
+        "name" : "iPad Pro 12.9 128GB",
+        "price" : 1379000,
+        "img" :"ipadpro12.9.jpg",
+        "alt" : "iPad Pro",
+        "type" : "iPad"
+    },
+    {
+        "name" : "iPad Air 64GB",
+        "price" : 779000,
+        "img" :"ipadair.jpg",
+        "alt" : "iPad Air",
+        "type" : "iPad"
+    },
+    {
+        "name" : "iPad Mini 64GB",
+        "price" : 499000,
+        "img" :"ipadmini.jpg",
+        "alt" : "iPad Mini",
+        "type" : "iPad"
+    },
+    {
+        "name" : "Galaxy Book",
+        "price" : 1030000,
+        "img" :"galaxybook.jpg",
+        "alt" : "Galaxy Book",
+        "type" : "Galaxy Book"
+    },
+    {
+        "name" : "Galaxy Book Pro",
+        "price" : 2440000,
+        "img" :"galaxybookpro.jpg",
+        "alt" : "Galaxy Book Pro",
+        "type" : "Galaxy Book"
+    },
+    {
+        "name" : "Galaxy Book Pro 360",
+        "price" : 2680000,
+        "img":"galaxybookpro360.jpg",
+        "alt" : "Galaxy Book Pro 360",
+        "type" : "Galaxy Book"
+    }
+]
