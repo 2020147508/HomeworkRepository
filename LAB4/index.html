@@ -93,16 +93,16 @@
             function load(){
                 fetch("./product.json")
                 .then((response) => response.json())
-                .then((data) => getData(data));
+                .then((data) => data.forEach(getData));
             }
             function getData(data){
                 
-                    let getImg = data[0].img;
+                    let getImg = data.img;
                     let item = document.getElementById("item");
                     let img  = document.createElement("img");
                     let src  = img.setAttribute("src" ,getImg );
                 
-                    console.log(data[0].img , img);
+                    console.log(data.img , img);
                     item.append(img);
             }
 
