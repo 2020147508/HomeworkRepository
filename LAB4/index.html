@@ -61,7 +61,8 @@
                     </form>
                 </aside>
                 <br>
-                <main id = "item" class = items></main> <p id = "itemdescrip"></p>
+                <main id = "item" class = items onclick = "whenclicked()"></main> 
+                <p id = "itemdescrip"></p>
                       
             </div>
             <br>
@@ -89,11 +90,25 @@
                     let getImg = data.img;
                     let item = document.getElementById("item");
                     let img  = document.createElement("img");
-                    let src  = img.setAttribute("src" ,getImg );
+                    let src  = img.setAttribute("src",getImg );
+                    let id = img.setAttribute("id", data.id);
                 
                     console.log(data.img , img);
                     item.append(img);
             }
+
+            function whenclicked(){
+                wantedid = this.getAttribute("id");
+                fetch ("./product.json")
+                .then((response) => response.json())
+                .then(description => {
+                const howmuch = description[id-1].price;
+                const nameofdevice = description[id-1].name;
+                document.getElementByID("itemdescrip").innerHTML = nameofdevice + " " + howmuch + "KRW"}
+                )
+            }
+            
+
          
         </script>
     </body>
