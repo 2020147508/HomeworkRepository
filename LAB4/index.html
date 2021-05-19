@@ -96,7 +96,7 @@
 
                     document.querySelectorAll('item').forEach(function(img){
                         img.onclick = function(){
-                        document.querySelector('#itemdescrip').innerHTML(data.name + data.price)
+                        document.querySelector('#itemdescrip').innerHTML = data.name +" " +data.price;
                         }
                     });
             }
