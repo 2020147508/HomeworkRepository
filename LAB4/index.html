@@ -85,6 +85,9 @@
         <br>
 
         <script>
+
+            document.addEventListener('DOMContentLoaded', load)
+            
             window.onscroll = () => {
                 if (window.innerHeight + window.scrollY >= document.body.offsetHeight){
                     load();
