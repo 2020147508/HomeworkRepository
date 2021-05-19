@@ -7,17 +7,6 @@
         <link href = "https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
         <link href = "https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
         <link href = "https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
-
-        <script>
-            window.onscroll = () => {
-                if (window.innerHeight + window.scrollY >= document.body.offsetHeight){
-                    load();
-                }
-            };
-            function load(){
-            }
-        </script>
-
     </head>
 
     <body>
@@ -72,11 +61,8 @@
                     </form>
                 </aside>
                 <br>
-                <main id = "item" class = items>
-
-                </main>
-                
-            }       
+                <main id = "item" class = items></main> <p id = "itemdescrip"></p>
+                      
             </div>
             <br>
             <br>
@@ -87,7 +73,7 @@
         <script>
 
             document.addEventListener('DOMContentLoaded', load)
-            
+
             window.onscroll = () => {
                 if (window.innerHeight + window.scrollY >= document.body.offsetHeight){
                     load();
@@ -107,10 +93,14 @@
                 
                     console.log(data.img , img);
                     item.append(img);
+
+                    document.querySelectorAll('item').forEach(function(img){
+                        img.onclick = function(){
+                        document.querySelector('#itemdescrip').innerHTML(data.name + data.price)
+                        }
+                    });
             }
-
-
-            
+         
         </script>
     </body>
 </html>
