@@ -102,8 +102,8 @@
                 fetch ("./product.json")
                 .then((response) => response.json())
                 .then(description => {
-                const howmuch = description[id-1].price;
-                const nameofdevice = description[id-1].name;
+                const howmuch = description[wantedid-1].price;
+                const nameofdevice = description[wantedid-1].name;
                 document.getElementByID("itemdescrip").innerHTML = nameofdevice + " " + howmuch + "KRW"}
                 )
             }
